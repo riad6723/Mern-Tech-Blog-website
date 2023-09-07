@@ -1,0 +1,34 @@
+.top{
+    display: flex;
+    background-color: rgb(240, 239, 239);
+    height: 50px;
+    position: sticky;
+}
+
+.topLeft, .topCenter, .topRight{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topLeft> span{
+    font-size: 26px;
+}
+
+.topCenter{
+    width: 50%;
+}
+
+.topCenter> span{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.topRight> span{
+    margin: 5px;
+    font-size: 20px;
+}
+
+
